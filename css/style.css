@@ -1,0 +1,29 @@
+.transfrom{
+
+transition-property: transform;
+transition-duration: 0.5s;
+z-index: 1;
+
+}
+
+.transfrom:hover{
+    transform: scale(1.01 , 1.01);
+    z-index: 2;
+}
+
+.card {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
+    transition: 0.5s;
+    border-radius: 5px 5px 5px 5px;   
+    transition-property: transform;
+    transition-duration: 0.8s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05, 1.05);
+  }
+
+  #icon i{
+    color: #485460;
+  }
